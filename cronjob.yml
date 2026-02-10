@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: dewi-cronjob
+spec:
+  schedule: "*/5 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: cron-task
+            image: busybox
+            command:
+              - /bin/sh
+              - -c
+              - echo "CronJob ran at $(date)"
+          restartPolicy: OnFailure
