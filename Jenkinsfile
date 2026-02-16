@@ -4,7 +4,7 @@ pipeline {
     environment {
         EC2_USER = 'ec2-user'
         EC2_HOST = '34.229.141.98'
-        PRIVATE_KEY_PATH = 'C:\Users/zeusa/Downloads/arch_dewi_jenkins_keypair.pem'
+        PRIVATE_KEY_PATH = 'C:/Users/zeusa/Downloads/arch_dewi_jenkins_keypair.pem'
         IMAGE_NAME = 'arch_dewi_jenkins'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
         GIT_REPO = 'https://github.com/Arch-Official02/dewi-project.git'
