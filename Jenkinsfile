@@ -7,7 +7,7 @@ pipeline {
         PRIVATE_KEY_PATH = 'C:\Users/zeusa/Downloads/arch_dewi_jenkins_keypair.pem'
         IMAGE_NAME = 'arch_dewi_jenkins'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
-        GIT_REPO = 'https://github.com/Success-C-Opara/electric-001.git'
+        GIT_REPO = 'https://github.com/Arch-Official02/dewi-project.git'
         BRANCH_NAME = 'main'
         GIT_BASH = '"C:\\Program Files\\Git\\bin\\bash.exe" -c'
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
