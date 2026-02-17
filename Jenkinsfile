@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         EC2_USER = 'ec2-user'
-        EC2_HOST = '54.196.174.128'
+        EC2_HOST = '52.90.165.238'
         PRIVATE_KEY_PATH = 'C:/Users/zeusa/Downloads/arch_dewi_jenkins_keypair.pem'
         IMAGE_NAME = 'arch_dewi_jenkins'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
